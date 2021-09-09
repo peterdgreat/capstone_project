@@ -31,14 +31,14 @@
 
 
 ## Live Demo
-[L2-conference](https://peterdgreat.github.io/Conference-event/)
+[L2-conference](https://peterdgreat.github.io/capstone_project/)
 
 ## Getting Started
 To get a local copy up and running follow these simple example steps.
 
 ### Setup
 * Open terminal
-* Clone this project by command git clone https://git@github.com:peterdgreat/conference-event.git
+* Clone this project by command git clone https://git@github.com:peterdgreat/capstone_project.git
 * Cd conference-event folder
 * Open index.html in the browser (you can use Live Server in Visual Studio Code)
 

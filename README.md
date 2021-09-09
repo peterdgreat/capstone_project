@@ -62,7 +62,7 @@ How to apply responsive design using flexbox and Bootstrap.
 
 👤 **Credits : Cindy Shin**
 
--License: [Cindy-Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+-Acknowledgement: [Cindy-Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## Show your support
 

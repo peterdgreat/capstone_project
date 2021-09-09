@@ -1,0 +1,49 @@
+.intro-details-abt {
+  background-color: #fff;
+  border: 2px solid #d3d3d3;
+  max-width: 600px;
+  color: #272a31;
+}
+
+#gmail {
+  color: black;
+  display: block;
+}
+
+.footer-bg {
+  background-color: #2e2e2e;
+}
+
+.partner-header,
+.footer-bg ul > li {
+  color: #fbfbfb;
+}
+
+.footer-lg {
+  height: 150px;
+}
+
+.Conference-2019 {
+  background-image: url(../img/2019_conference.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fbfbfb;
+}
+
+.Conference-2017 {
+  background-image: url(../img/2017_conference.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 250px;
+  color: #fcfffd;
+}
+
+@media (min-width: 768px) {
+  .footer-lg {
+    background-color: #2e2e2e;
+    color: #fbfbfb;
+  }
+}

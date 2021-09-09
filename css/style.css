@@ -1,0 +1,199 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  color: #272a31;
+}
+
+.navbar {
+  background-image: url(../img/worship.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 150px;
+  background-size: cover;
+  background-blend-mode: multiply;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+nav a {
+  color: #272a31;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.border-nav {
+  border: 5px solid #ec5242;
+  max-width: 150px;
+}
+
+.border-nav a {
+  color: #ec5242;
+}
+
+.nav-link {
+  color: #272a31;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'COCOGOOSE', Arial, Helvetica, sans-serif;
+}
+
+.intro h1,
+.intro h2 {
+  color: #ec5242;
+}
+
+.intro-bg {
+  background-color: #d3d3d3;
+}
+
+p {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.intro-details {
+  max-width: 600px;
+  border: 2px solid #fff;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+.show {
+  background-color: #d3d3d3;
+  width: 100%;
+}
+
+.sp-t {
+  max-width: 120px;
+}
+
+.close,
+.hamburger {
+  cursor: pointer;
+}
+
+#btn {
+  color: #fff;
+}
+
+#hamburger {
+  font-weight: 900;
+}
+
+.navbar-collapse-bg {
+  background-color: #d3d3d3;
+}
+
+.what-we-learn {
+  background-color: #272a31;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+
+.underline hr {
+  margin: 1rem auto;
+  background-color: #ec5242;
+  opacity: 1;
+  width: 60px;
+}
+
+.event-bg {
+  background: #3c3f46;
+  height: 200px;
+  width: 100%;
+}
+
+.intro .date {
+  color: #272a31;
+}
+
+.event-bg h3 {
+  color: #ec5242;
+}
+
+.under-p {
+  border-bottom: 1px solid #fff;
+}
+
+.see-height {
+  height: 150px;
+}
+
+.see-height button {
+  border: 0;
+}
+
+.bg-join {
+  background-color: #ff4f38;
+  height: 100px;
+  color: #fff;
+}
+
+.sp-bg {
+  background-color: #3e3e3e;
+}
+
+.sp-bg li > a {
+  color: #fbfbfb;
+  text-decoration: none;
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.nav-link:active,
+nav a:focus,
+nav a:hover {
+  color: #ff4f38;
+}
+
+.footer-bg {
+  background-color: #2e2e2e;
+}
+
+.partner-header,
+.footer-bg ul > li {
+  color: #fbfbfb;
+}
+
+.footer-lg {
+  height: 150px;
+}
+
+.f-speaker > div > p:first-of-type {
+  color: red;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    background-color: transparent;
+  }
+
+  .navbar {
+    background-image: unset;
+    background-color: #fff;
+  }
+
+  .intro-bg {
+    background-image: url(../img/worship.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+  }
+}
+
+@media (min-width: 768px) {
+  .event-bg {
+    width: 200px;
+  }
+}
+
+@media (max-width: 400px) {
+  .event-bg h3,
+  .event-bg p {
+    font-size: 15px;
+  }
+}
